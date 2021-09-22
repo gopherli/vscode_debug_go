@@ -9,10 +9,23 @@ vscode_debug
 go.delveConfig生成默认配置即可
 其他默认即可
 ```
-- 第三步：启动调试
+- 第三步：在入口文件，启动调试
 ```
-1.侧边栏选择Run and Debug->顶层下拉选择Lauch
-2.打点配合F5命令即可断点调试
+Launch  调试文件
+Launch Package 调试包
+Launch Program 调试程序
 ```
 
-## 远程DEBUG
+## 远程DEBUG（error）
+- 参考：https://cloud.tencent.com/developer/article/1726411
+- vscode下载插件
+```
+Remote Development
+C/C++
+```
+- 开启远程调试
+```
+侧边栏点击Remote Explorer
+点击加号user@127.0.0.1
+右键输入密码建立连接
+```
